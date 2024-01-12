@@ -13,8 +13,19 @@ model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 extractionModel = pipeline(
     'question-answering', model="deepset/roberta-base-squad2", tokenizer="deepset/roberta-base-squad2")
 
+extractionModel = pipeline(
+    "question-answering", model="deepset/bert-large-uncased-whole-word-masking-squad2")
+
+
 nodes = [
     'AccountForm;||Name|What is the Name of the person?,Address|Where does the person live?,Preference|What is the Preference? (Mr or Mrs or Ms)||; Represents a user information form that requires Name, Address, Preference information from the user. e.g. "My name is Crosby, I live at Cornell St. and prefer Mr", Hi I\'m Mrs Lily, I reside in Toronto',
+    'Weather;||City|What is the location?||; A sub-node of "Weather," it represents the point where location or query details are input for weather-related inquiries. e.g. Whats it like in Brazil, "how we feeling outside","What does it feel like outside in Germany Berlin?,"whats it like in Sydney","How we doing in Canada, say, Toronto"',
+    'Calculator;||promptSequence|What is the full arithmetic?||; A sub-node of "Calculator," it is the point where mathematical expressions or calculations are input for processing, e.g., 3*3+128, 2+2*23, 3 times 3 plus 128,"add 10 to 5 times 2","Add 15 to 3"'
+]
+
+nodes = [
+    # 'AccountForm;||Name|What is the Name of the person?,Address|Where does the person live?,Preference|What is the Preference? (Mr or Mrs or Ms)||; Represents a user information form that requires Name, Address, Preference information from the user. e.g. "My name is Crosby, I live at Cornell St. and prefer Mr", Hi I\'m Mrs Lily, I reside in Toronto',
+    'AccountForm;||Name|What is the Name of the person?,Address|What is the location?,Email|What is my email?||; Represents a user information form that requires Name, Address, Preference information from the user. e.g. "My name is Crosby, I live at Cornell St. and prefer Mr", Hi I\'m Mrs Lily, I reside in Toronto',
     'Weather;||City|What is the location?||; A sub-node of "Weather," it represents the point where location or query details are input for weather-related inquiries. e.g. Whats it like in Brazil, "how we feeling outside","What does it feel like outside in Germany Berlin?,"whats it like in Sydney","How we doing in Canada, say, Toronto"',
     'Calculator;||promptSequence|What is the full arithmetic?||; A sub-node of "Calculator," it is the point where mathematical expressions or calculations are input for processing, e.g., 3*3+128, 2+2*23, 3 times 3 plus 128,"add 10 to 5 times 2","Add 15 to 3"'
 ]

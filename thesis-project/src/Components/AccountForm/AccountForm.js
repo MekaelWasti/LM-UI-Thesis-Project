@@ -13,7 +13,8 @@ const AccountForm = ({ config }) => {
 
   const [name, setName] = useState("");
   const [address, setAddress] = useState("");
-  const [preference, setPreference] = useState("");
+  // const [preference, setPreference] = useState("");
+  const [email, setEmail] = useState("");
 
   const typingDelay = 80;
   // const name = config.Name || "";
@@ -23,15 +24,18 @@ const AccountForm = ({ config }) => {
   useEffect(() => {
     setName("");
     setAddress("");
-    setPreference("");
+    // setPreference("");
+    setEmail("");
     console.log("AW YEAH", config);
     if (config.Name) {
       let indexName = 0;
       let indexAddress = 0;
       let indexPreference = 0;
+      let indexEmail = 0;
       setName((prev) => prev + config.Name[indexName]);
       setAddress((prev) => prev + config.Address[indexAddress]);
-      setPreference((prev) => prev + config.Preference[indexPreference]);
+      // setPreference((prev) => prev + config.Preference[indexPreference]);
+      setEmail((prev) => prev + config.Email[indexEmail]);
 
       const interval = setInterval(() => {
         setName((prev) =>
@@ -42,14 +46,20 @@ const AccountForm = ({ config }) => {
             ? prev + config.Address[indexAddress]
             : prev
         );
-        setPreference((prev) =>
-          indexPreference < config.Preference.length
-            ? prev + config.Preference[indexPreference]
+        // setPreference((prev) =>
+        //   indexPreference < config.Preference.length
+        //     ? prev + config.Preference[indexPreference]
+        //     : prev
+        // );
+        setEmail((prev) =>
+          indexEmail < config.Email.length
+            ? prev + config.Email[indexEmail]
             : prev
         );
         indexName++;
         indexAddress++;
         indexPreference++;
+        indexEmail++;
 
         // if (config && indexName == config.Name.length - 1) {
         // clearInterval(interval);
@@ -87,17 +97,27 @@ const AccountForm = ({ config }) => {
           type="text"
           placeholder=""
           value={address}
+          onChange={(e) => setAddress(e.target.value)}
         />
       </div>
 
       <div>
-        <label for="preference">PREFERENCE</label>
+        {/* <label for="preference">PREFERENCE</label>
         <input
-          id="preference"
-          name="preference"
+        id="preference"
+        name="preference"
+        type="text"
+        placeholder=""
+        value={preference}
+      /> */}
+        <label for="preference">EMAIL</label>
+        <input
+          id="email"
+          name="email"
           type="text"
           placeholder=""
-          value={preference}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         {/* <select
           value={selectedOption}

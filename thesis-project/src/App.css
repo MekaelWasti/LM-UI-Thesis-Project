@@ -95,11 +95,11 @@ h1 {
 }
 
 .audio_analyser {
-  position: fixed;
+  /* position: fixed; */
   /* margin-top: 85vh; */
-  margin-top: 7vh;
-  left: 20vw;
-  width: 60vw;
+  /* margin-top: 7vh; */
+  /* left: 20vw; */
+  /* width: 60vw; */
 }
 
 .audio_analyser canvas {
@@ -110,7 +110,9 @@ h1 {
   color: white;
 }
 
-.promptComponents {
+.prompt_components {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   /* padding-top: 10%; */
   margin-top: 88vh;
@@ -177,9 +179,20 @@ h1 {
   padding: 1vh 3vw 1vh 3vw;
 }
 .btn {
-  padding: 1vh 5vw 1vh 5vw;
-  margin: 0vh 3vw 0vh 3vw;
-  /* border: none; */
+  /* padding: 1vh 5vw 1vh 5vw; */
+  /* margin: 0vh 3vw 0vh 3vw; */
+  position: fixed;
+  width: 3.5em; /* Fixed width */
+  height: 3.5em; /* Fixed height */
+  background-image: url("../public/Assets/MicMuted.svg"); /* Adjust the path as necessary */
+  background-size: cover; /* This will ensure that the background image covers the area without being stretched */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transform: translateY(-10%) translateX(-210px); */
+  left: 2.3em;
+  top: -0.2em;
+  border: none;
+  background-color: #1e202200;
 }
 
 button {

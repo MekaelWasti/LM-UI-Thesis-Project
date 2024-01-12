@@ -6,7 +6,15 @@ export default class AudioRecorder extends Component {
     super(props);
     this.state = {
       status: "",
+      isMuted: true,
     };
+  }
+
+  toggleMute() {
+    this.setState((prevState) => ({
+      isMuted: !prevState.isMuted,
+      status: prevState.isMuted ? "recording" : "inactive",
+    }));
   }
 
   controlAudio(status) {
@@ -28,7 +36,7 @@ export default class AudioRecorder extends Component {
   }
 
   render() {
-    const { status, audioSrc, audioType } = this.state;
+    const { status, isMuted, audioSrc, audioType } = this.state;
     const audioProps = {
       audioType,
       // audioOptions: {sampleRate: 30000}, // 设置输出音频采样率
@@ -73,25 +81,32 @@ export default class AudioRecorder extends Component {
         console.log("error", err);
       },
     };
+
+    const buttonStyle = isMuted
+      ? {}
+      : { backgroundImage: 'url("/Assets/MicUnmuted.svg")' }; // Updated path
+
     return (
       <div>
         <AudioAnalyser {...audioProps} className="audio_analyser">
           <div className="btn-box">
             <button
               className="btn"
-              onClick={() => this.controlAudio("recording")}
+              style={buttonStyle}
+              onClick={() => this.toggleMute()} // Updated to toggleMute method
+              // onClick={() => this.controlAudio("recording")}
             >
-              START
+              {/* START */}
             </button>
             {/* <button className="btn" onClick={() => this.controlAudio("paused")}>
               Pause
             </button> */}
-            <button
-              className="btn"
+            {/* <button
+              className="stop_btn"
               onClick={() => this.controlAudio("inactive")}
             >
               STOP
-            </button>
+            </button> */}
             {/* <button className="btn" onClick={() => console.log(AudioAnalyser)}>
               Log
             </button> */}

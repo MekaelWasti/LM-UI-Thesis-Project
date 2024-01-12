@@ -16,7 +16,7 @@ import {
   setConfig,
 } from "./slices/commandInputSlice";
 
-// import AudioRecorder from "./Components/AudioRecorder.js";
+import AudioRecorder from "./Components/AccountForm/AudioRecorder.js";
 
 function App() {
   // Redux Toolkit
@@ -28,48 +28,72 @@ function App() {
 
   // Handle Prompt
   const managePrompt = (prompt) => {
-    dispatch(setCommand(prompt));
-    dispatch(setCommand(null));
+    // dispatch(setCommand(prompt));
+    // dispatch(setCommand(null));
+
+    try {
+      const command = JSON.parse(prompt);
+      if (command.CurrentApp) {
+        dispatch(setCurrentApp(command.CurrentApp));
+      }
+      if (command.Config) {
+        dispatch(setConfig(command.Config));
+      }
+      setJsonInput(""); // Reset the input after processing
+    } catch (error) {
+      console.log("Error parsing JSON", error);
+    }
+
+    setTextPrompt(prompt);
+    setPrompt(prompt);
   };
 
   const sendPrompt = async (e) => {
     if (e.key === "Enter") {
       let prompt = e.target.value;
       setPrompt(null);
-      try {
-        const formData = new FormData();
-        formData.append("prompt", prompt);
+      const formData = new FormData();
+      formData.append("prompt", prompt);
 
-        // const response = await fetch("http://127.0.0.1:8000/get_action", {
-        const response = await fetch(
-          "https://api.mekaelwasti.com:63030/get_action",
-          {
-            method: "POST",
-            body: formData,
-          }
-        );
-        const data = await response.json();
-        console.log("RESPONSE:", data);
-        // managePrompt(data);
+      // Possible working URLS
+      const URLS = [
+        "https://api.mekaelwasti.com:63030/get_action",
+        "//rtr.science.ontariotechu.ca:63030/get_action", // RTR Server
+      ];
 
+      for (const url of URLS)
         try {
-          const command = JSON.parse(data);
-          if (command.CurrentApp) {
-            dispatch(setCurrentApp(command.CurrentApp));
-          }
-          if (command.Config) {
-            dispatch(setConfig(command.Config));
-          }
-          setJsonInput(""); // Reset the input after processing
-        } catch (error) {
-          console.log("Error parsing JSON", error);
-        }
+          // const response = await fetch("http://127.0.0.1:8000/get_action", {
+          const response = await fetch(
+            // "https://api.mekaelwasti.com:63030/get_action",
+            url,
+            {
+              method: "POST",
+              body: formData,
+            }
+          );
+          const data = await response.json();
+          console.log("RESPONSE:", data);
+          // managePrompt(data);
 
-        setTextPrompt(data);
-        setPrompt(data);
-      } catch (err) {
-        console.log("ERROR SENDING");
-      }
+          try {
+            const command = JSON.parse(data);
+            if (command.CurrentApp) {
+              dispatch(setCurrentApp(command.CurrentApp));
+            }
+            if (command.Config) {
+              dispatch(setConfig(command.Config));
+            }
+            setJsonInput(""); // Reset the input after processing
+          } catch (error) {
+            console.log("Error parsing JSON", error);
+          }
+
+          setTextPrompt(data);
+          setPrompt(data);
+        } catch (err) {
+          console.log("ERROR SENDING");
+        }
     }
   };
 
@@ -149,7 +173,7 @@ function App() {
         <source src="Assets/backgroundmesh.mp4" type="video/mp4" />
       </video> */}
 
-      <div className="promptComponents">
+      <div className="prompt_components">
         <input
           value={jsonInput}
           className="mainInputField"
@@ -161,15 +185,17 @@ function App() {
         />
         {/* VOICE UI CONTROL */}
         {/* VOICE UI CONTROL */}
+        {/* <img className="mic_icon" src={"/Assets/MicMuted.svg"} alt="My Image" /> */}
+
+        <AudioRecorder onAudioProcessed={managePrompt} />
       </div>
       {/* <AccountForm commandInput={commandInput}></AccountForm> */}
       {/* <Weather commandInput={commandInput}></Weather> */}
       {/* <Calculator commandInput={commandInput}></Calculator> */}
-      {RenderedComponent}
 
       {/* <VoiceRecorder></VoiceRecorder> */}
       {/* <h4>Record, Encode and Download Audio</h4> */}
-      {/* <AudioRecorder></AudioRecorder> */}
+      {RenderedComponent}
     </div>
   );
 }

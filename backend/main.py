@@ -28,6 +28,7 @@ origins = [
     "http://localhost:8000",
     "http://localhost:3000",
     "http://localhost:3001",
+    "http://rtr.science.ontariotechu.ca:8210",
     "https://thesisproject.mekaelwasti.com",
     "https://thesisproject.mekaelwasti.com",
 ]
