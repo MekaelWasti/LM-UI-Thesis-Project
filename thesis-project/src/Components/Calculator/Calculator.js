@@ -53,7 +53,14 @@ const Calculator = ({ config }) => {
       return () => clearInterval(intervalID);
     } else if (sequenceFinished) {
       // setExpressionResult(eval(config.promptSequence));
-      setExpressionResult(eval(parsedPrompt));
+
+      // Error check for invalid and crash invoking prompts
+      try {
+        setExpressionResult(eval(parsedPrompt));
+      } catch (e) {
+        setExpressionResult("Invalid Expression");
+        console.log("Invalid expression");
+      }
     }
   }, [sequenceQueue]);
 

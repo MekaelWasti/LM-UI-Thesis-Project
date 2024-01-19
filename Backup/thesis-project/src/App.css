@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url(//db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=CeraCY-Bold);
+
+* {
+  font-family: "CeraCY-Bold", sans-serif;
+  /* font-weight: 700; */
+  /* background-color: #131313; */
+  /* color: white; */
+  color: rgb(39, 39, 39);
+  color: #1e2022;
+  scroll-behavior: smooth;
+  text-shadow: 0 0 1.4px #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* for vertical scrollbars */
+  height: 0; /* for horizontal scrollbars */
+  display: none;
+}
+
+body {
+  background-color: rgb(19, 23, 24);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* overflow: hidden; */
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 0vh 0px 10vh 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainInputField::placeholder {
+  color: white;
+}
+
+/* Mine */
+.mainInputField {
+  position: fixed;
+  /* margin-top: 76vh; */
+  left: 20vw;
+  width: 60vw;
+  height: 5.5vh;
+  text-align: center;
+  /*  */
+  /*  */
+  color: white;
+  /* background-color: #ffffff51; */
+  border: rgba(118, 118, 118, 0.375) solid 0.1px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+  /* opacity: 43%; */
+  text-shadow: 0 0 0px #ffffff;
+}
+
+.audio_analyser {
+  /* position: fixed; */
+  /* margin-top: 85vh; */
+  /* margin-top: 7vh; */
+  /* left: 20vw; */
+  /* width: 60vw; */
+}
+
+.audio_analyser canvas {
+  display: none;
+}
+
+.app_title {
+  color: white;
+}
+
+.prompt_components {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  /* padding-top: 10%; */
+  margin-top: 88vh;
+  /* left: 20vw; */
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  /* background-color: #919aa0f9; */
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  backdrop-filter: blur(13px);
+}
+
+.background {
+  z-index: -1;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
+  width: 100vw;
+  height: 100vh;
+  /* object-fit: cover; */
+  /* opacity: 30%; */
+  /* opacity: 61%; */
+  opacity: 20%;
+  opacity: 5%;
+  filter: blur(3px);
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 15vh 0px 20vh 0px;
+
+  /* height: 100%; */
+}
+
+.counter > h1,
+.view {
+  color: white;
+}
+
+.counter_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+  z-index: 1;
+}
+
+.counter_section > .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  border: none;
+  /* opacity: 80%; */
+}
+
+.buttons {
+  /* border: 0.8px solid rgba(0, 0, 0, 0.423); */
+  padding: 1vh 3vw 1vh 3vw;
+}
+.btn {
+  /* padding: 1vh 5vw 1vh 5vw; */
+  /* margin: 0vh 3vw 0vh 3vw; */
+  position: fixed;
+  width: 3.5em; /* Fixed width */
+  height: 3.5em; /* Fixed height */
+  background-image: url("../public/Assets/MicMuted.svg"); /* Adjust the path as necessary */
+  background-size: cover; /* This will ensure that the background image covers the area without being stretched */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transform: translateY(-10%) translateX(-210px); */
+  left: 2.3em;
+  top: -0.2em;
+  border: none;
+  background-color: #1e202200;
+}
+
+button {
+  color: rgb(41, 41, 41);
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 700;
+  font-size: 7vw;
+  padding-left: 2vw;
+  width: 10%;
+}
+
+/* Text */
+.inputField {
+  margin-top: 6vh;
+}
+
+/* Weather */
+
+.weather_section {
+  /* margin: 20vh 0px 20vh 0px; */
+  padding: 20vh 0px 40vh 0px;
+}
+
+.weather_section > h1,
+h2,
+h3,
+h5 {
+  padding: 0px 0px 1vh 0px;
+  margin: 0px 0px 0px 0px;
+  color: white;
+}
+
+.weather_section > .app_title {
+  padding: 0px 0px 8vh 0px;
+}
+
+.weather_section > input {
+  width: 240px;
+  height: 40px;
+  background-color: #ffffff51;
+  /* border: rgb(255, 255, 255) solid 0.8px; */
+  border: rgb(255, 255, 255) solid 0px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+  /* opacity: 80%; */
+  /* box-shadow: inset 0 0 10px #fff; */
+  color: white;
+  text-shadow: 0 0 0px #ffffff;
+  font-weight: 100 !important;
+}
+
+.temperature {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 700;
+}
+
+.condition {
+  margin-bottom: 18px;
+}
+
+.weather_icon {
+  display: relative;
+  margin-top: 4svh;
+  filter: contrast(200%);
+}
+
+@keyframes blurAnimation {
+  0% {
+    filter: blur(2px);
+  }
+  50% {
+    filter: blur(7px);
+  }
+  100% {
+    filter: blur(2px);
+  }
+}
+
+.glow_icon_first {
+  position: absolute;
+  /* filter: blur(19px); */
+  /* filter: blur(46px); */
+  animation: blurAnimation 9s infinite; /* 3s duration, loop forever */
+}
+
+/* Weather */
+
+/* Calculator */
+.calculator_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20vh 0px 40vh 0px;
+}
+
+.expression_field {
+  /* width: 40vw; */
+  margin-bottom: 2vh;
+}
+
+.calculator_operations > button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.expression_field {
+  width: 240px;
+  height: 50px;
+  background-color: #ffffff51;
+  /* border: rgb(255, 255, 255) solid 0.8px; */
+  border: rgb(255, 255, 255) solid 0px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+  /* opacity: 80%; */
+  /* box-shadow: inset 0 0 10px #fff; */
+  color: white;
+  text-shadow: 0 0 0px #ffffff;
+  font-weight: 100 !important;
+}
+
+.calculator_operations > button {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff51;
+  /* border: rgb(255, 255, 255) solid 0.8px; */
+  border: rgb(255, 255, 255) solid 0px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+  /* opacity: 80%; */
+  box-shadow: 0 0 1.4px #fff;
+  color: white;
+  text-shadow: 0 0 0px #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  /* backdrop-filter: blur(5px); */
+  border-radius: 10px;
+}
+
+.calculator_operations > .equals_button {
+  background-color: #ffa800;
+  /* background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527)); */
+}
+
+.calculator_operations > button:hover {
+  background-color: #ffffff51;
+  background: linear-gradient(to right, #ffffff, rgba(202, 208, 222, 0.758));
+}
+
+.calculator_operations > .active {
+  background-color: #ffffff51;
+  background: linear-gradient(to right, #ffffff, rgba(202, 208, 222, 0.758));
+}
+
+/* Calculator */
+
+/* Account Info Form */
+
+.account_info_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 15vh 0px 20vh 0px;
+  text-shadow: 0 0 1.4px #ffffff;
+  /* text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffffff, 0 0 25px #ffffff,
+    0 0 30px #ffffff; */
+  color: white;
+}
+
+.account_info_form > div {
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  margin-bottom: 2.5vh;
+}
+
+.account_info_form > div > label {
+  width: 180px;
+  color: white;
+}
+
+/* .account_info_form > div > input { */
+/* width: 200px; */
+/* background-color: #ffffff51; */
+/* border: rgb(255, 255, 255) solid 2px; */
+/* border-radius: 30px; */
+/* background: linear-gradient(to right, #000, #333); */
+/* box-shadow: inset 0 0 10px #fff; */
+/* } */
+
+.account_info_form > div > input,
+.account_info_form > div > select {
+  width: 200px;
+  height: 20px;
+  background-color: #ffffff51;
+  /* border: rgb(255, 255, 255) solid 1.8px; */
+  border: rgb(255, 255, 255) solid 0px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+  /* opacity: 80%; */
+  box-shadow: 0 0 1px #fff;
+  color: white;
+  text-shadow: 0 0 0px #ffffff;
+  font-weight: 100 !important;
+}
+
+.account_info_form > div > .preference_select {
+  width: 209px;
+}

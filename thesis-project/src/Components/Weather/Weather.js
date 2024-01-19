@@ -6,7 +6,7 @@ const Weather = ({ config }) => {
   const weatherLocationJSON = config.City || "Whitby, Canada";
 
   const [weatherLocation, setWeatherLocation] = useState("Whitby, Canada");
-  const [weatherPrompt, setWeatherPrompt] = useState("Enter Location");
+  const [weatherPrompt, setWeatherPrompt] = useState("");
   // const [details, setWeatherDetails] = useState("CONDITION");
   const [details, setWeatherDetails] = useState("");
   const [weatherIcon, setWeatherIcon] = useState(null);
@@ -121,12 +121,16 @@ const Weather = ({ config }) => {
       <div className="weather_icon">
         <img
           className="glow_icon_first"
-          src={`/Assets/weatherIcons/64x64/${weatherIcon}.png`}
+          src={
+            weatherIcon ? `/Assets/weatherIcons/64x64/${weatherIcon}.png` : null
+          }
           alt={weatherIcon}
         />
         <img
           className="glow_icon_second"
-          src={`/Assets/weatherIcons/64x64/${weatherIcon}.png`}
+          src={
+            weatherIcon ? `/Assets/weatherIcons/64x64/${weatherIcon}.png` : null
+          }
           alt={weatherIcon}
         />
       </div>

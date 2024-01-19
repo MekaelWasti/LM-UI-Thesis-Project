@@ -2,6 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   currentApp: null,
+  // currentApp: "Calculator",
+  // currentApp: "Weather",
   config: {},
 };
 

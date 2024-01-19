@@ -412,3 +412,359 @@ h5 {
 .account_info_form > div > .preference_select {
   width: 209px;
 }
+
+/* @media (max-width: 480px) { */
+@media (max-width: 1200px) {
+  h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0vh 0px 3vh 0px;
+    font-size: 2em;
+  }
+
+  body,
+  html {
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling */
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.9em;
+    height: 100%;
+  }
+
+  * {
+    text-shadow: 0 0 0.4px #ffffff;
+    /* font-size: 1.1em; */
+
+    /* background-color: rgb(50, 182, 215); */
+  }
+
+  .mainInputField {
+    font-size: 1.4em;
+  }
+
+  .prompt_components {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* padding-top: 10%; */
+    margin-top: 78vh;
+    /* left: 20vw; */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    /* background-color: #919aa0f9; */
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    backdrop-filter: blur(13px);
+  }
+
+  .btn {
+    /* padding: 1vh 5vw 1vh 5vw; */
+    /* margin: 0vh 3vw 0vh 3vw; */
+    position: fixed;
+    width: 5em; /* Fixed width */
+    height: 5em; /* Fixed height */
+    background-image: url("../public/Assets/MicMuted.svg"); /* Adjust the path as necessary */
+    background-size: cover; /* This will ensure that the background image covers the area without being stretched */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: translateY(-10%) translateX(-210px); */
+    left: 1.3em;
+    top: 87.3%;
+    border: none;
+    background-color: #1e202200;
+  }
+
+  .mainInputField {
+    left: 20%;
+    width: 70%;
+  }
+
+  /* Account Info Form */
+
+  .account_info_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding: 45% 0px 20vh 0px;
+    text-shadow: 0 0 1.4px #ffffff;
+    /* text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffffff, 0 0 25px #ffffff,
+    0 0 30px #ffffff; */
+    color: white;
+  }
+
+  .account_info_form > div {
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    margin-left: -1em;
+    font-size: 1.4em;
+  }
+
+  .account_info_form > h1 {
+    padding: 0vh 0vh 10vh 0vh;
+  }
+
+  .account_info_form > div > label {
+    width: 6em;
+    color: white;
+  }
+
+  /* .account_info_form > div > input { */
+  /* width: 200px; */
+  /* background-color: #ffffff51; */
+  /* border: rgb(255, 255, 255) solid 2px; */
+  /* border-radius: 30px; */
+  /* background: linear-gradient(to right, #000, #333); */
+  /* box-shadow: inset 0 0 10px #fff; */
+  /* } */
+
+  .account_info_form > div > input,
+  .account_info_form > div > select {
+    width: 200px;
+    height: 20px;
+    background-color: #ffffff51;
+    /* border: rgb(255, 255, 255) solid 1.8px; */
+    border: rgb(255, 255, 255) solid 0px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+    /* opacity: 80%; */
+    box-shadow: 0 0 1px #fff;
+    color: white;
+    text-shadow: 0 0 0px #ffffff;
+    font-weight: 100 !important;
+  }
+
+  .account_info_form > div > .preference_select {
+    width: 209px;
+  }
+
+  /* .calculator_section > h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0vh 0px 3vh 0px;
+  } */
+
+  /* Calculator */
+  .calculator_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0px 40vh 0px;
+    font-size: 1.1em;
+    color: white !important;
+  }
+
+  .expression_field {
+    /* width: 40vw; */
+    margin-bottom: 2vh;
+  }
+
+  .calculator_operations > button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .expression_field {
+    width: 240px;
+    height: 50px;
+    background-color: #ffffff51;
+    /* border: rgb(255, 255, 255) solid 0.8px; */
+    border: rgb(255, 255, 255) solid 0px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+    /* opacity: 80%; */
+    /* box-shadow: inset 0 0 10px #fff; */
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0px #ffffff;
+    font-weight: 100 !important;
+  }
+
+  .calculator_operations > button {
+    /* width: 50px; */
+    /* height: 50px; */
+    width: 3.3em;
+    height: 3.3em;
+    background-color: #ffffff51;
+    /* border: rgb(255, 255, 255) solid 0.8px; */
+    border: rgb(255, 255, 255) solid 0px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+    /* opacity: 80%; */
+    box-shadow: 0 0 1.4px #fff;
+    color: white;
+    text-shadow: 0 0 0px #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    /* backdrop-filter: blur(5px); */
+    border-radius: 10px;
+    font-size: 1.3em;
+  }
+
+  .calculator_operations > .equals_button {
+    background-color: #ffa800;
+    /* background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527)); */
+  }
+
+  .calculator_operations > button:hover {
+    background-color: #ffffff51;
+    background: linear-gradient(to right, #ffffff, rgba(202, 208, 222, 0.758));
+  }
+
+  .calculator_operations > .active {
+    background-color: #ffffff51;
+    background: linear-gradient(to right, #ffffff, rgba(202, 208, 222, 0.758));
+  }
+
+  /* Calculator */
+
+  /* Weather */
+
+  .weather_section {
+    /* margin: 20vh 0px 20vh 0px; */
+    padding: 10vh 0px 40vh 0px;
+    font-size: 1.4em;
+  }
+
+  .weather_section > h1,
+  h2,
+  h3,
+  h5 {
+    padding: 0px 0px 1vh 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+  }
+
+  .weather_section > .app_title {
+    /* padding: 0px 0px 8vh 0px; */
+    padding: 0px 0px 6vh 0px;
+  }
+
+  .weather_section > input {
+    width: 13em;
+    height: 2.7em;
+    text-align: center;
+    background-color: #ffffff51;
+    /* border: rgb(255, 255, 255) solid 0.8px; */
+    border: rgb(255, 255, 255) solid 0px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+    /* opacity: 80%; */
+    /* box-shadow: inset 0 0 10px #fff; */
+    color: white;
+    text-shadow: 0 0 0px #ffffff;
+    font-weight: 100 !important;
+    /* font-size: 0.8em; */
+    font-size: 1.1em;
+  }
+
+  .temperature {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 700;
+  }
+
+  .condition {
+    margin-bottom: 18px;
+  }
+
+  .weather_icon {
+    display: relative;
+    margin-top: 4svh;
+    filter: contrast(200%);
+  }
+
+  @keyframes blurAnimation {
+    0% {
+      filter: blur(2px);
+    }
+    50% {
+      filter: blur(7px);
+    }
+    100% {
+      filter: blur(2px);
+    }
+  }
+
+  .glow_icon_first {
+    position: absolute;
+    /* filter: blur(19px); */
+    /* filter: blur(46px); */
+    /* animation: blurAnimation 9s infinite; 3s duration, loop forever */
+  }
+
+  /* Weather */
+}
+
+@media (min-width: 500px) and (max-width: 1500px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  * {
+    font-size: 1.15em;
+  }
+
+  .btn {
+    /* padding: 1vh 5vw 1vh 5vw; */
+    /* margin: 0vh 3vw 0vh 3vw; */
+    position: fixed;
+    width: 3.8em; /* Fixed width */
+    height: 3.8em; /* Fixed height */
+    background-image: url("../public/Assets/MicMuted.svg"); /* Adjust the path as necessary */
+    background-size: cover; /* This will ensure that the background image covers the area without being stretched */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: translateY(-10%) translateX(-210px); */
+    left: 3.3em;
+    top: 79.6%;
+    /* top: -0.2em; */
+    border: none;
+    background-color: #1e202200;
+    font-size: 0.7em;
+  }
+
+  .mainInputField {
+    left: 20%;
+    width: 58%;
+  }
+
+  .account_info_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding: 10% 0px 20vh 0px;
+    text-shadow: 0 0 1.4px #ffffff;
+    /* text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffffff, 0 0 25px #ffffff,
+    0 0 30px #ffffff; */
+    color: white;
+  }
+
+  .account_info_form > div > input {
+    font-size: 0.7em;
+  }
+
+  .calculator_operations > button {
+    /* width: 50px; */
+    /* height: 50px; */
+    width: 3.3em;
+    height: 3.3em;
+    background-color: #ffffff51;
+    /* border: rgb(255, 255, 255) solid 0.8px; */
+    border: rgb(255, 255, 255) solid 0px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #b1b1b12c, rgba(74, 74, 74, 0.527));
+    /* opacity: 80%; */
+    box-shadow: 0 0 1.4px #fff;
+    color: white;
+    text-shadow: 0 0 0px #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    /* backdrop-filter: blur(5px); */
+    border-radius: 10px;
+    font-size: 0.9em;
+  }
+}
