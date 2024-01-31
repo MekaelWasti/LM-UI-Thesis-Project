@@ -1,0 +1,94 @@
+"What's the weather like in Vancouver, Canada?" || {"CurrentApp":"Weather","Config":{"Location": "Vancouver, Canada"}}
+"Show me the current weather in Tokyo, Japan." || {"CurrentApp":"Weather","Config":{"Location": "Tokyo, Japan"}}
+"I need the wind speed for Berlin, Germany, right now." || {"CurrentApp":"Weather","Config":{"Location": "Berlin, Germany"}}
+"What's the temperature in Rome, Italy, at the moment?" || {"CurrentApp":"Weather","Config":{"Location": "Rome, Italy"}}
+"How's the weather looking in Paris, France, this evening?" || {"CurrentApp":"Weather","Config":{"Location": "Paris, France"}}
+"Can you give me the weather forecast for Cairo, Egypt?" || {"CurrentApp":"Weather","Config":{"Location": "Cairo, Egypt"}}
+"What are the current weather conditions in Moscow, Russia?" || {"CurrentApp":"Weather","Config":{"Location": "Moscow, Russia"}}
+"What's the chance of precipitation in London, UK?" || {"CurrentApp":"Weather","Config":{"Location": "London, UK"}}
+"Give me the UV index for Sydney, Australia, right now." || {"CurrentApp":"Weather","Config":{"Location": "Sydney, Australia"}}
+"I want to know the air quality in Beijing, China, today." || {"CurrentApp":"Weather","Config":{"Location": "Beijing, China"}}
+"What's the weather in Rio de Janeiro, Brazil, at present?" || {"CurrentApp":"Weather","Config":{"Location": "Rio de Janeiro, Brazil"}}
+"How cold is it in Oslo, Norway, right now?" || {"CurrentApp":"Weather","Config":{"Location": "Oslo, Norway"}}
+"I need the snow report for Zermatt, Switzerland." || {"CurrentApp":"Weather","Config":{"Location": "Zermatt, Switzerland"}}
+"What's the current temperature in New Delhi, India?" || {"CurrentApp":"Weather","Config":{"Location": "New Delhi, India"}}
+"Can I get the weather update for Toronto, Canada?" || {"CurrentApp":"Weather","Config":{"Location": "Toronto, Canada"}}
+"What's the weather forecast for tomorrow in Bangkok, Thailand?" || {"CurrentApp":"Weather","Config":{"Location": "Bangkok, Thailand"}}
+"I'd like the current weather in Buenos Aires, Argentina." || {"CurrentApp":"Weather","Config":{"Location": "Buenos Aires, Argentina"}}
+"Show me the weather in Lisbon, Portugal, now." || {"CurrentApp":"Weather","Config":{"Location": "Lisbon, Portugal"}}
+"Is the weather in Dublin, Ireland, good for a picnic today?" || {"CurrentApp":"Weather","Config":{"Location": "Dublin, Ireland"}}
+"Tell me if it will snow in Oslo, Norway, today." || {"CurrentApp":"Weather","Config":{"Location": "Oslo, Norway"}}
+"I'm looking for the temperature in Madrid, Spain, now." || {"CurrentApp":"Weather","Config":{"Location": "Madrid, Spain"}}
+"What's the current weather in Naples, Italy?" || {"CurrentApp":"Weather","Config":{"Location": "Naples, Italy"}}
+"Show me the weather in Lima, Peru." || {"CurrentApp":"Weather","Config":{"Location": "Lima, Peru"}}
+"I need the wind speed for Helsinki, Finland, right now." || {"CurrentApp":"Weather","Config":{"Location": "Helsinki, Finland"}}
+"What's the temperature in Prague, Czech Republic, at the moment?" || {"CurrentApp":"Weather","Config":{"Location": "Prague, Czech Republic"}}
+"Are there any storm warnings for Oslo, Norway, today?" || {"CurrentApp":"Weather","Config":{"Location": "Oslo, Norway"}}
+"How's the weather looking in Manila, Philippines, this evening?" || {"CurrentApp":"Weather","Config":{"Location": "Manila, Philippines"}}
+"Can you give me the weather forecast for Addis Ababa, Ethiopia?" || {"CurrentApp":"Weather","Config":{"Location": "Addis Ababa, Ethiopia"}}
+"What are the current weather conditions in Bratislava, Slovakia?" || {"CurrentApp":"Weather","Config":{"Location": "Bratislava, Slovakia"}}
+"Is a heatwave expected in Doha, Qatar, this week?" || {"CurrentApp":"Weather","Config":{"Location": "Doha, Qatar"}}
+"I'm looking for the sunrise time in Reykjavik, Iceland." || {"CurrentApp":"Weather","Config":{"Location": "Reykjavik, Iceland"}}
+"What's the chance of rain in Accra, Ghana?" || {"CurrentApp":"Weather","Config":{"Location": "Accra, Ghana"}}
+"Give me the UV index for Nairobi, Kenya, right now." || {"CurrentApp":"Weather","Config":{"Location": "Nairobi, Kenya"}}
+"Are there any hurricane alerts for Santo Domingo, Dominican Republic?" || {"CurrentApp":"Weather","Config":{"Location": "Santo Domingo, Dominican Republic"}}
+"I want to know the air quality in Hanoi, Vietnam, today." || {"CurrentApp":"Weather","Config":{"Location": "Hanoi, Vietnam"}}
+"Show current visibility stats for Kathmandu, Nepal." || {"CurrentApp":"Weather","Config":{"Location": "Kathmandu, Nepal"}}
+"What's the weather in Montevideo, Uruguay, at present?" || {"CurrentApp":"Weather","Config":{"Location": "Montevideo, Uruguay"}}
+"How cold is it in Tallinn, Estonia, right now?" || {"CurrentApp":"Weather","Config":{"Location": "Tallinn, Estonia"}}
+"I need the snow report for Andorra la Vella, Andorra." || {"CurrentApp":"Weather","Config":{"Location": "Andorra la Vella, Andorra"}}
+"What's the current temperature in Riga, Latvia?" || {"CurrentApp":"Weather","Config":{"Location": "Riga, Latvia"}}
+"Is it foggy in Sofia, Bulgaria, at the moment?" || {"CurrentApp":"Weather","Config":{"Location": "Sofia, Bulgaria"}}
+"Can I get the weather update for Dakar, Senegal?" || {"CurrentApp":"Weather","Config":{"Location": "Dakar, Senegal"}}
+"What's the weather forecast for tomorrow in Ljubljana, Slovenia?" || {"CurrentApp":"Weather","Config":{"Location": "Ljubljana, Slovenia"}}
+"I'd like the current weather in Yerevan, Armenia." || {"CurrentApp":"Weather","Config":{"Location": "Yerevan, Armenia"}}
+"Show me the weather in Kingston, Jamaica, now." || {"CurrentApp":"Weather","Config":{"Location": "Kingston, Jamaica"}}
+"Is the weather in Valletta, Malta, good for a picnic today?" || {"CurrentApp":"Weather","Config":{"Location": "Valletta, Malta"}}
+"What is the current weather condition in Port Louis, Mauritius?" || {"CurrentApp":"Weather","Config":{"Location": "Port Louis, Mauritius"}}
+"Can you check the weather in Minsk, Belarus, for me?" || {"CurrentApp":"Weather","Config":{"Location": "Minsk, Belarus"}}
+"I need to know if it's hot in Muscat, Oman, today." || {"CurrentApp":"Weather","Config":{"Location": "Muscat, Oman"}}
+"How's the weather in Kigali, Rwanda, right now?" || {"CurrentApp":"Weather","Config":{"Location": "Kigali, Rwanda"}}
+"Is it currently sunny in Harare, Zimbabwe?" || {"CurrentApp":"Weather","Config":{"Location": "Harare, Zimbabwe"}}
+"What's the temperature like in Vientiane, Laos, this morning?" || {"CurrentApp":"Weather","Config":{"Location": "Vientiane, Laos"}}
+"Are there any rain alerts for Luanda, Angola, today?" || {"CurrentApp":"Weather","Config":{"Location": "Luanda, Angola"}}
+"I want to know the humidity level in Baku, Azerbaijan." || {"CurrentApp":"Weather","Config":{"Location": "Baku, Azerbaijan"}}
+"Show me the weather forecast for Suva, Fiji." || {"CurrentApp":"Weather","Config":{"Location": "Suva, Fiji"}}
+"Can you provide the current wind speeds in Ulan Bator, Mongolia?" || {"CurrentApp":"Weather","Config":{"Location": "Ulan Bator, Mongolia"}}
+"What's the likelihood of a thunderstorm in N'Djamena, Chad?" || {"CurrentApp":"Weather","Config":{"Location": "N'Djamena, Chad"}}
+"Is it rainy in Paramaribo, Suriname, at the moment?" || {"CurrentApp":"Weather","Config":{"Location": "Paramaribo, Suriname"}}
+"Give me the current weather conditions in Nouakchott, Mauritania." || {"CurrentApp":"Weather","Config":{"Location": "Nouakchott, Mauritania"}}
+"What's the forecast looking like in Podgorica, Montenegro?" || {"CurrentApp":"Weather","Config":{"Location": "Podgorica, Montenegro"}}
+"I need the sunrise time for today in Tashkent, Uzbekistan." || {"CurrentApp":"Weather","Config":{"Location": "Tashkent, Uzbekistan"}}
+"How hot is it in Windhoek, Namibia, right now?" || {"CurrentApp":"Weather","Config":{"Location": "Windhoek, Namibia"}}
+"What's the current air quality index in Thimphu, Bhutan?" || {"CurrentApp":"Weather","Config":{"Location": "Thimphu, Bhutan"}}
+"I'm looking for the temperature in Lilongwe, Malawi, now." || {"CurrentApp":"Weather","Config":{"Location": "Lilongwe, Malawi"}}
+"Show me the wind direction in Bridgetown, Barbados, today." || {"CurrentApp":"Weather","Config":{"Location": "Bridgetown, Barbados"}}
+"Is there a chance of frost tonight in Skopje, North Macedonia?" || {"CurrentApp":"Weather","Config":{"Location": "Skopje, North Macedonia"}}
+"I'd like to know if it's cloudy in Georgetown, Guyana, this afternoon." || {"CurrentApp":"Weather","Config":{"Location": "Georgetown, Guyana"}}
+"Can I get the weather update for Maputo, Mozambique?" || {"CurrentApp":"Weather","Config":{"Location": "Maputo, Mozambique"}}
+"Tell me about the weather in Astana, Kazakhstan, for the weekend." || {"CurrentApp":"Weather","Config":{"Location": "Astana, Kazakhstan"}}
+"What is the visibility range in Bamako, Mali, right now?" || {"CurrentApp":"Weather","Config":{"Location": "Bamako, Mali"}}
+"How is the weather in Tirana, Albania, at this hour?" || {"CurrentApp":"Weather","Config":{"Location": "Tirana, Albania"}}
+"Can you give me the weather conditions for Phnom Penh, Cambodia?" || {"CurrentApp":"Weather","Config":{"Location": "Phnom Penh, Cambodia"}}
+"What's the current temperature in Conakry, Guinea?" || {"CurrentApp":"Weather","Config":{"Location": "Conakry, Guinea"}}
+"Is there a heat advisory for today in Asuncion, Paraguay?" || {"CurrentApp":"Weather","Config":{"Location": "Asuncion, Paraguay"}}
+"I need the UV index for Libreville, Gabon, right now." || {"CurrentApp":"Weather","Config":{"Location": "Libreville, Gabon"}}
+"Show me the weather forecast for Helsinki, Finland." || {"CurrentApp":"Weather","Config":{"Location": "Helsinki, Finland"}}
+"What's the likelihood of rain today in Lusaka, Zambia?" || {"CurrentApp":"Weather","Config":{"Location": "Lusaka, Zambia"}}
+"Can I get the current wind speed in Juba, South Sudan?" || {"CurrentApp":"Weather","Config":{"Location": "Juba, South Sudan"}}
+"Is it snowing in Reykjavik, Iceland?" || {"CurrentApp":"Weather","Config":{"Location": "Reykjavik, Iceland"}}
+"What is the weather prediction for today in Dili, East Timor?" || {"CurrentApp":"Weather","Config":{"Location": "Dili, East Timor"}}
+"I'd like to know if it will be foggy tomorrow in Kampala, Uganda." || {"CurrentApp":"Weather","Config":{"Location": "Kampala, Uganda"}}
+"Are there any storm alerts for Papeete, French Polynesia?" || {"CurrentApp":"Weather","Config":{"Location": "Papeete, French Polynesia"}}
+"What's the chance of a thunderstorm in Monrovia, Liberia?" || {"CurrentApp":"Weather","Config":{"Location": "Monrovia, Liberia"}}
+"Can you tell me the sunset time in Sucre, Bolivia?" || {"CurrentApp":"Weather","Config":{"Location": "Sucre, Bolivia"}}
+"How's the weather in Tashkent, Uzbekistan, looking for the weekend?" || {"CurrentApp":"Weather","Config":{"Location": "Tashkent, Uzbekistan"}}
+"I'm looking for the air quality index in Banjul, Gambia, today." || {"CurrentApp":"Weather","Config":{"Location": "Banjul, Gambia"}}
+"Show me the current visibility in Port Moresby, Papua New Guinea." || {"CurrentApp":"Weather","Config":{"Location": "Port Moresby, Papua New Guinea"}}
+"Is there a high surf advisory for today in Male, Maldives?" || {"CurrentApp":"Weather","Config":{"Location": "Male, Maldives"}}
+"What is the temperature right now in Yaounde, Cameroon?" || {"CurrentApp":"Weather","Config":{"Location": "Yaounde, Cameroon"}}
+"Can you update me on the chance of snow in Rovaniemi, Finland?" || {"CurrentApp":"Weather","Config":{"Location": "Rovaniemi, Finland"}}
+"I need the wind chill factor for Nuuk, Greenland, this morning." || {"CurrentApp":"Weather","Config":{"Location": "Nuuk, Greenland"}}
+"Tell me the weather outlook for Yerevan, Armenia, for the next three days." || {"CurrentApp":"Weather","Config":{"Location": "Yerevan, Armenia"}}
+"What's the current storm tracking in Antananarivo, Madagascar?" || {"CurrentApp":"Weather","Config":{"Location": "Antananarivo, Madagascar"}}
+"I'd like the sunrise and sunset times for today in Honiara, Solomon Islands." || {"CurrentApp":"Weather","Config":{"Location": "Honiara, Solomon Islands"}}

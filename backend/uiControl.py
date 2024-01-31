@@ -1,6 +1,7 @@
 # import sys
-from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline, T5ForConditionalGeneration, T5Tokenizer
 import numpy as np
+import torch
 from sentence_transformers import SentenceTransformer, util
 import os
 import openai
@@ -8,6 +9,8 @@ openai.api_key = "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"
 
 # inputSentence = sys.argv[1]
 # print(f'THE INPUT SENTENCE IS: {inputSentence}')
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 extractionModel = pipeline(
@@ -30,6 +33,13 @@ nodes = [
     'Calculator;||promptSequence|What is the full arithmetic?||; A sub-node of "Calculator," it is the point where mathematical expressions or calculations are input for processing, e.g., 3*3+128, 2+2*23, 3 times 3 plus 128,"add 10 to 5 times 2","Add 15 to 3"'
 ]
 
+# FOR ADVANCED CALCULATOR
+
+tokenizer = T5Tokenizer.from_pretrained('t5-base')
+t5_model = T5ForConditionalGeneration.from_pretrained('t5-base')
+t5_model.load_state_dict(torch.load('t5-base-advanced_calc.pth'))
+t5_model = t5_model.to(device)
+
 
 def getCandidateV2(input):
 
@@ -38,18 +48,30 @@ def getCandidateV2(input):
 
     cosine_score = util.cos_sim(input_encoded, node_encoded)
     most_similar = cosine_score.argmax().item()
+
+
     res = nodes[most_similar]
     res = nodes[most_similar].split(';')
+    print(res[0])
 
-    questions = res[1][2:-2].split(',')
-    answers = {}
+    if res[0] == "Calculator":
+        token = tokenizer.encode("Extract the arithmetic expression: " + input, return_tensors='pt', padding='max_length', max_length=75, truncation=True).to(device)
+        output_sequences = t5_model.generate(input_ids = token, max_length=50)
+        output_text = tokenizer.decode(output_sequences[0], skip_special_tokens=True)
+        output_text = output_text.replace('"',"")
+        answers = f'{{"promptSequence": "{output_text}"}}'
 
-    for question in questions:
-        question = question.split('|')
-        answer = extractionModel(
-            {'context': input, 'question': question[1]})
-        answers[question[0]] = (answer['answer'])
+    else:
 
-    answers = str(answers).replace("'", "\"")
+        questions = res[1][2:-2].split(',')
+        answers = {}
+
+        for question in questions:
+            question = question.split('|')
+            answer = extractionModel(
+                {'context': input, 'question': question[1]})
+            answers[question[0]] = (answer['answer'])
+
+        answers = str(answers).replace("'", "\"")
 
     return '{"CurrentApp":"' + res[0] + '","Config":' + answers + "}"

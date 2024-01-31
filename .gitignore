@@ -24,3 +24,10 @@ yarn-error.log*
 
 # keys
 backend/apiKey.env
+
+# Env?
+/adapter-finetune
+/myenv
+
+# Weights
+/training

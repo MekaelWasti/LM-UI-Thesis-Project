@@ -1,0 +1,57 @@
+"Add 12 and 35 together." || "12 + 35:B-ARITHMETIC"
+"What is 50 minus 22?" || "50 - 22:B-ARITHMETIC"
+"Multiply 8 by 7." || "8 * 7:B-ARITHMETIC"
+"Divide 144 by 12." || "144 / 12:B-ARITHMETIC"
+"Take 15 and subtract 3." || "15 - 3:B-ARITHMETIC"
+"What's 9 plus 16?" || "9 + 16:B-ARITHMETIC"
+"Calculate 25 times 4." || "25 * 4:B-ARITHMETIC"
+"What is 81 divided by 9?" || "81 / 9:B-ARITHMETIC"
+"How much is 60 after adding 15?" || "60 + 15:B-ARITHMETIC"
+"Subtract 7 from 42." || "42 - 7:B-ARITHMETIC"
+"What do you get if you double 30?" || "2 * 30:B-ARITHMETIC"
+"Half of 100 is what?" || "100 / 2:B-ARITHMETIC"
+"Add 14, 27, and 36." || "14 + 27 + 36:B-ARITHMETIC"
+"Take 100 and reduce it by 25." || "100 - 25:B-ARITHMETIC"
+"What's 6 times the sum of 4 and 5?" || "6 * (4 + 5):B-ARITHMETIC"
+"Divide 250 by a fifth of 50." || "250 / (1/5 * 50):B-ARITHMETIC"
+"Triple the number 33." || "3 * 33:B-ARITHMETIC"
+"What is 45 increased by 20%?" || "45 + (0.20 * 45):B-ARITHMETIC"
+"Decrease 180 by 10%." || "180 - (0.10 * 180):B-ARITHMETIC"
+"How much is 75 minus the product of 5 and 3?" || "75 - (5 * 3):B-ARITHMETIC"
+
+
+
+
+
+
+
+Calculate 20 minus 8." || "20 - 8:B-ARITHMETIC
+What's 15 multiplied with 2?" || "15 * 2:B-ARITHMETIC
+Subtract 5 from 30." || "30 - 5:B-ARITHMETIC
+Add 47 and 53, then divide by 2." || "(47 + 53) / 2:B-ARITHMETIC
+What is the sum of 25 and 10?" || "25 + 10:B-ARITHMETIC
+What is the product of 8 and 7?" || "8 * 7:B-ARITHMETIC
+
+
+Calculate 100 divided by 5." || "100 / 5:B-ARITHMETIC
+What is the difference between 50 and 20?" || "50 - 20:B-ARITHMETIC
+Multiply 6 by 9." || "6 * 9:B-ARITHMETIC
+Subtract 15 from 30, then divide by 3." || "(30 - 15) / 3:B-ARITHMETIC
+Add 25 and 35 together." || "25 + 35:B-ARITHMETIC
+What is the product of 12 and 4?" || "12 * 4:B-ARITHMETIC
+Divide 80 by 10." || "80 /10:B-ARITHMETIC
+Subtract 7 from the sum of 15 and 23." || "(15 +23) -7:B-ARITHMETIC
+What is the result of multiplying -5 by -8?" || "-5 * -8:B-ARITHMETIC
+Add -10 to the product of -2 and -3." || "-2 * -3 + (-10):B-ARITHMETIC
+Calculate 50 minus 25." || "50 - 25:B-ARITHMETIC
+What's 12 multiplied with 3?" || "12 * 3:B-ARITHMETIC
+Subtract 15 from 40." || "40 - 15:B-ARITHMETIC
+Add 27 and 33, then divide by 2." || "(27 + 33) / 2:B-ARITHMETIC
+What is the sum of 18 and 7?" || "18 + 7:B-ARITHMETIC
+What is the product of 5 and 9?" || "5 * 9:B-ARITHMETIC
+Calculate 120 divided by 6." || "120 /6:B-ARITHMETIC
+What is the difference between -10 and -20?" || "-10 - (-20):B-ARITHMETIC
+Multiply -4 by -7." || "-4 * -7:B-ARITHMETIC
+Subtract -15 from -30, then divide by -3." || "(-30) - (-15) / (-3):B-ARITHMETIC
+Add -25 and -35 together." || "-25 + (-35):B-ARITHMETIC
+What is the product of -12 and -4?" || "-12 * (-4):B-ARITHMETIC

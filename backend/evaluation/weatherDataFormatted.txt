@@ -1,0 +1,100 @@
+{"CurrentApp":"Weather","Config":{"City": "Cairo, Egypt"}}
+{"CurrentApp":"Weather","Config":{"City": "Tokyo, Japan"}}
+{"CurrentApp":"Weather","Config":{"City": "Paris, France"}}
+{"CurrentApp":"Weather","Config":{"City": "Mumbai, India"}}
+{"CurrentApp":"Weather","Config":{"City": "Toronto, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Manchester, UK"}}
+{"CurrentApp":"Weather","Config":{"City": "Sydney, Australia"}}
+{"CurrentApp":"Weather","Config":{"City": "Beijing, China"}}
+{"CurrentApp":"Weather","Config":{"City": "Rio de Janeiro, Brazil"}}
+{"CurrentApp":"Weather","Config":{"City": "Moscow, Russia"}}
+{"CurrentApp":"Weather","Config":{"City": "Zurich, Switzerland"}}
+{"CurrentApp":"Weather","Config":{"City": "New Delhi, India"}}
+{"CurrentApp":"Weather","Config":{"City": "London, England"}}
+{"CurrentApp":"Weather","Config":{"City": "Berlin, Germany"}}
+{"CurrentApp":"Weather","Config":{"City": "Bangkok, Thailand"}}
+{"CurrentApp":"Weather","Config":{"City": "Buenos Aires, Argentina"}}
+{"CurrentApp":"Weather","Config":{"City": "Sydney, Australia"}}
+{"CurrentApp":"Weather","Config":{"City": "Rome, Italy"}}
+{"CurrentApp":"Weather","Config":{"City": "Seoul, South Korea"}}
+{"CurrentApp":"Weather","Config":{"City": "Moscow, Russia"}}
+{"CurrentApp":"Weather","Config":{"City": "Dubai, United Arab Emirates"}}
+{"CurrentApp":"Weather","Config":{"City": "Barcelona"}}
+{"CurrentApp":"Weather","Config":{"City": "Cape Town, South Africa"}}
+{"CurrentApp":"Weather","Config":{"City": "Mexico City, Mexico"}}
+{"CurrentApp":"Weather","Config":{"City": "Vancouver, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Dubai, United Arab Emirates"}}
+{"CurrentApp":"Weather","Config":{"City": "Zurich, Switzerland"}}
+{"CurrentApp":"Weather","Config":{"City": "Cape Town, South Africa"}}
+{"CurrentApp":"Weather","Config":{"City": "New Delhi, India"}}
+{"CurrentApp":"Weather","Config":{"City": "Vancouver, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Singapore"}}
+{"CurrentApp":"Weather","Config":{"City": "Rio de Janeiro, Brazil"}}
+{"CurrentApp":"Weather","Config":{"City": "Amsterdam, Netherlands"}}
+{"CurrentApp":"Weather","Config":{"City": "Barcelona"}}
+{"CurrentApp":"Weather","Config":{"City": "Cape Town, South Africa"}}
+{"CurrentApp":"Weather","Config":{"City": "Tokyo, Japan"}}
+{"CurrentApp":"Weather","Config":{"City": "Paris, France"}}
+{"CurrentApp":"Weather","Config":{"City": "Oslo, Norway"}}
+{"CurrentApp":"Weather","Config":{"City": "Dubai, United Arab Emirates"}}
+{"CurrentApp":"Weather","Config":{"City": "Barcelona"}}
+{"CurrentApp":"Weather","Config":{"City": "Nuuk, Greenland"}}
+{"CurrentApp":"Weather","Config":{"City": "Ulaanbaatar, Mongolia"}}
+{"CurrentApp":"Weather","Config":{"City": "ValparaÃ\xadso, Chile"}}
+{"CurrentApp":"Weather","Config":{"City": "Antananarivo, Madagascar"}}
+{"CurrentApp":"Weather","Config":{"City": "Bishkek, Kyrgyzstan"}}
+{"CurrentApp":"Weather","Config":{"City": "Dushanbe, Tajikistan"}}
+{"CurrentApp":"Weather","Config":{"City": "Thimphu, Bhutan"}}
+{"CurrentApp":"Weather","Config":{"City": "Yerevan, Armenia"}}
+{"CurrentApp":"Weather","Config":{"City": "Ashgabat, Turkmenistan"}}
+{"CurrentApp":"Weather","Config":{"City": "Ouagadougou, Burkina Faso"}}
+{"CurrentApp":"Weather","Config":{"City": "Porto, Portugal"}}
+{"CurrentApp":"Weather","Config":{"City": "Tbilisi, Georgia"}}
+{"CurrentApp":"Weather","Config":{"City": "Lyon, France"}}
+{"CurrentApp":"Weather","Config":{"City": "Hobart, Australia"}}
+{"CurrentApp":"Weather","Config":{"City": "Wellington, New Zealand"}}
+{"CurrentApp":"Weather","Config":{"City": "Montevideo, Uruguay"}}
+{"CurrentApp":"Weather","Config":{"City": "Cork, Ireland"}}
+{"CurrentApp":"Weather","Config":{"City": "Busan, South Korea"}}
+{"CurrentApp":"Weather","Config":{"City": "Naples, Italy"}}
+{"CurrentApp":"Weather","Config":{"City": "Valencia, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Accra, Ghana"}}
+{"CurrentApp":"Weather","Config":{"City": "Bergen, Norway"}}
+{"CurrentApp":"Weather","Config":{"City": "Banff, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Reykjavik, Iceland"}}
+{"CurrentApp":"Weather","Config":{"City": "Bratislava, Slovakia"}}
+{"CurrentApp":"Weather","Config":{"City": "Casablanca, Morocco"}}
+{"CurrentApp":"Weather","Config":{"City": "Cardiff, Wales"}}
+{"CurrentApp":"Weather","Config":{"City": "Minsk, Belarus"}}
+{"CurrentApp":"Weather","Config":{"City": "Vilnius, Lithuania"}}
+{"CurrentApp":"Weather","Config":{"City": "Ghent, Belgium"}}
+{"CurrentApp":"Weather","Config":{"City": "Queenstown, New Zealand"}}
+{"CurrentApp":"Weather","Config":{"City": "Bergen, Norway"}}
+{"CurrentApp":"Weather","Config":{"City": "Bruges, Belgium"}}
+{"CurrentApp":"Weather","Config":{"City": "Alicante, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Riga, Latvia"}}
+{"CurrentApp":"Weather","Config":{"City": "Cardiff, Wales"}}
+{"CurrentApp":"Weather","Config":{"City": "Santiago, Chile"}}
+{"CurrentApp":"Weather","Config":{"City": "Da Nang, Vietnam"}}
+{"CurrentApp":"Weather","Config":{"City": "Edmonton, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Bilbao, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Tallinn, Estonia"}}
+{"CurrentApp":"Weather","Config":{"City": "Mombasa, Kenya"}}
+{"CurrentApp":"Weather","Config":{"City": "Dresden, Germany"}}
+{"CurrentApp":"Weather","Config":{"City": "Bergen, Norway"}}
+{"CurrentApp":"Weather","Config":{"City": "Valencia, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Marseille, France"}}
+{"CurrentApp":"Weather","Config":{"City": "Bruges, Belgium"}}
+{"CurrentApp":"Weather","Config":{"City": "Coimbra, Portugal"}}
+{"CurrentApp":"Weather","Config":{"City": "Osaka, Japan"}}
+{"CurrentApp":"Weather","Config":{"City": "Krakow, Poland"}}
+{"CurrentApp":"Weather","Config":{"City": "Seville, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Galway, Ireland"}}
+{"CurrentApp":"Weather","Config":{"City": "Tallinn, Estonia"}}
+{"CurrentApp":"Weather","Config":{"City": "Halifax, Canada"}}
+{"CurrentApp":"Weather","Config":{"City": "Da Nang, Vietnam"}}
+{"CurrentApp":"Weather","Config":{"City": "Bruges, Belgium"}}
+{"CurrentApp":"Weather","Config":{"City": "Reykjavik, Iceland"}}
+{"CurrentApp":"Weather","Config":{"City": "Salzburg, Austria"}}
+{"CurrentApp":"Weather","Config":{"City": "Seville, Spain"}}
+{"CurrentApp":"Weather","Config":{"City": "Coimbra, Portugal"}}

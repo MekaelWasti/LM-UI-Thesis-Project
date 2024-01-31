@@ -1,0 +1,100 @@
+"Subtract nine from thirty-one." || {"CurrentApp":"Calculator","Config":{"promptSequence": "31 - 9"}}
+"Double eight and then add ten." || {"CurrentApp":"Calculator","Config":{"promptSequence": "2 * 8 + 10"}}
+"Divide forty by five and add seven." || {"CurrentApp":"Calculator","Config":{"promptSequence": "40 / 5 + 7"}}
+"First add six to twelve, then divide by three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(6 + 12) / 3"}}
+"Multiply nine by four, then subtract two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "9 * 4 - 2"}}
+"Add seventeen and twenty-three together." || {"CurrentApp":"Calculator","Config":{"promptSequence": "17 + 23"}}
+"Take three, quadruple it, and add six." || {"CurrentApp":"Calculator","Config":{"promptSequence": "4 * 3 + 6"}}
+"If you have sixteen candies and eat six, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "16 - 6"}}
+"Start with twenty, divide by four, and then add five." || {"CurrentApp":"Calculator","Config":{"promptSequence": "20 / 4 + 5"}}
+"If you pick ten flowers and find five more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "10 + 5"}}
+"You have a dozen eggs, and you use three, how many remain?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "12 - 3"}}
+"Multiply the sum of ten and four by three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(10 + 4) * 3"}}
+"If you own forty books and buy eight more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "40 + 8"}}
+"Divide thirty by five, then multiply the result by four." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(30 / 5) * 4"}}
+"You have fifty pens and lose fifteen, how many do you have left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "50 - 15"}}
+"Add nineteen to twenty-one." || {"CurrentApp":"Calculator","Config":{"promptSequence": "19 + 21"}}
+"Triple seven and then add eight." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * 7 + 8"}}
+"If you have two hundred dollars and spend fifty, what is left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "200 - 50"}}
+"Take five times the sum of eight and two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "5 * (8 + 2)"}}
+"You have seven hundred marbles and give away ninety, how many remain?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "700 - 90"}}
+"Subtract eighteen from thirty-six." || {"CurrentApp":"Calculator","Config":{"promptSequence": "36 - 18"}}
+"Quadruple four and then subtract three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "4 * 4 - 3"}}
+"If you have three dozen cookies and eat twelve, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "36 - 12"}}
+"Multiply the difference of fifteen and seven by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(15 - 7) * 2"}}
+"You have eighty apples and give away thirty, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "80 - 30"}}
+"Add twenty-two to eighteen." || {"CurrentApp":"Calculator","Config":{"promptSequence": "22 + 18"}}
+"If you own fifteen cars and buy five more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "15 + 5"}}
+"Divide sixty by six, then multiply by five." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(60 / 6) * 5"}}
+"You start with a hundred cookies and eat twenty, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "100 - 20"}}
+"Triple the sum of eleven and nine." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * (11 + 9)"}}
+"Add seven to fifteen." || {"CurrentApp":"Calculator","Config":{"promptSequence": "7 + 15"}}
+"First multiply four by three, then add seven." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(4 * 3) + 7"}}
+"Add three to eight, and then multiply the result by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(3 + 8) * 2"}}
+"If you have 20 apples and give away 5, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "20 - 5"}}
+"Double the sum of six and ten." || {"CurrentApp":"Calculator","Config":{"promptSequence": "2 * (6 + 10)"}}
+"Subtract nine from twenty-eight." || {"CurrentApp":"Calculator","Config":{"promptSequence": "28 - 9"}}
+"Multiply eight by five, then subtract three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "8 * 5 - 3"}}
+"Add four to nineteen, and then divide by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(4 + 19) / 2"}}
+"If you have 30 pens and buy 10 more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "30 + 10"}}
+"Divide forty-two by six, then add five." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(42 / 6) + 5"}}
+"First subtract seven from fifteen, then multiply by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(15 - 7) * 2"}}
+"If you own 12 cars and sell 3, how many remain?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "12 - 3"}}
+"Triple the difference between fourteen and eight." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * (14 - 8)"}}
+"Add seventeen to twenty-three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "17 + 23"}}
+"Divide twenty-four by four and then multiply by three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(24 / 4) * 3"}}
+"If you have 50 books and give away 20, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "50 - 20"}}
+"Multiply the sum of nine and eleven by four." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(9 + 11) * 4"}}
+"Subtract six from thirty, then divide by three." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(30 - 6) / 3"}}
+"You own 100 marbles and lose 25, how many do you have left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "100 - 25"}}
+"Add fifteen to eighteen, then divide the result by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(15 + 18) / 2"}}
+"Multiply seven by nine, then subtract four." || {"CurrentApp":"Calculator","Config":{"promptSequence": "7 * 9 - 4"}}
+"If you start with 40 candies and eat 15, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "40 - 15"}}
+"Double the sum of ten and five." || {"CurrentApp":"Calculator","Config":{"promptSequence": "2 * (10 + 5)"}}
+"Subtract eight from twenty-six." || {"CurrentApp":"Calculator","Config":{"promptSequence": "26 - 8"}}
+"Multiply thirteen by three, then add six." || {"CurrentApp":"Calculator","Config":{"promptSequence": "13 * 3 + 6"}}
+"If you have 60 apples and give away 15, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "60 - 15"}}
+"First add twelve to eighteen, then multiply by two." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(12 + 18) * 2"}}
+"Divide thirty-six by nine, then add four." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(36 / 9) + 4"}}
+"You own 200 books and buy 50 more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "200 + 50"}}
+"Triple the difference between twenty and ten." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * (20 - 10)"}}
+"Add 156 to 427." || {"CurrentApp":"Calculator","Config":{"promptSequence": "156 + 427"}}
+"First multiply 238 by 47, then add 365." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(238 * 47) + 365"}}
+"Subtract 549 from 1028." || {"CurrentApp":"Calculator","Config":{"promptSequence": "1028 - 549"}}
+"Divide 5000 by 125 and then add 78." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(5000 / 125) + 78"}}
+"Multiply 312 by 24, then subtract 689." || {"CurrentApp":"Calculator","Config":{"promptSequence": "312 * 24 - 689"}}
+"Add 482 to 759." || {"CurrentApp":"Calculator","Config":{"promptSequence": "482 + 759"}}
+"Triple 347 and then add 196." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * 347 + 196"}}
+"If you have 1500 apples and give away 275, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "1500 - 275"}}
+"First subtract 123 from 987, then multiply by 4." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(987 - 123) * 4"}}
+"Divide 3600 by 72, then add 245." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(3600 / 72) + 245"}}
+"Multiply the sum of 528 and 672 by 3." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(528 + 672) * 3"}}
+"If you own 3200 cars and sell 489, how many remain?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "3200 - 489"}}
+"Quadruple the difference between 1458 and 923." || {"CurrentApp":"Calculator","Config":{"promptSequence": "4 * (1458 - 923)"}}
+"Add 1024 to 2048." || {"CurrentApp":"Calculator","Config":{"promptSequence": "1024 + 2048"}}
+"Multiply 256 by 16, then subtract 1024." || {"CurrentApp":"Calculator","Config":{"promptSequence": "256 * 16 - 1024"}}
+"If you have 6000 books and give away 1575, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "6000 - 1575"}}
+"Double the sum of 345 and 655." || {"CurrentApp":"Calculator","Config":{"promptSequence": "2 * (345 + 655)"}}
+"Subtract 478 from 1500, then divide by 6." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(1500 - 478) / 6"}}
+"You own 10000 marbles and lose 2375, how many do you have left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "10000 - 2375"}}
+"Add 789 to 1234, then divide the result by 3." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(789 + 1234) / 3"}}
+"Multiply 789 by 56, then subtract 4321." || {"CurrentApp":"Calculator","Config":{"promptSequence": "789 * 56 - 4321"}}
+"If you start with 7500 candies and eat 1230, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "7500 - 1230"}}
+"Triple the sum of 852 and 147." || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 * (852 + 147)"}}
+"Subtract 678 from 4321." || {"CurrentApp":"Calculator","Config":{"promptSequence": "4321 - 678"}}
+"Multiply 123 by 45, then add 678." || {"CurrentApp":"Calculator","Config":{"promptSequence": "123 * 45 + 678"}}
+"If you have 12000 apples and give away 3000, how many are left?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "12000 - 3000"}}
+"First add 2345 to 6789, then multiply by 2." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(2345 + 6789) * 2"}}
+"Divide 8400 by 120, then add 567." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(8400 / 120) + 567"}}
+"You own 25000 books and buy 5000 more, how many do you have?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "25000 + 5000"}}
+"9876 minus 1346 equals?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "9876 minus 1346"}}
+"567 times 89 plus 2345 is?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "567 times 89 plus 2345"}}
+"6789 plus 4321 divided by 3 equals?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "6789 plus 4321 divided by 3"}}
+"10000 divided by 250 minus 78 is?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "10000 divided by 250 minus 78"}}
+"5000 pencils minus 1234 gives?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "5000 minus 1234"}}
+"3456 plus 6543 times 2 equals what?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "3456 plus 6543 times 2"}}
+"8432 minus 1597 then multiplied by 5 is?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "8432 minus 1597 times 5"}}
+"Triple the difference between 9876 and 4321?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "3 times (9876 minus 4321)"}}
+"20000 cookies minus 5678 leaves how many?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "20000 minus 5678"}}
+"What is 12345 plus 67890 divided by 4?" || {"CurrentApp":"Calculator","Config":{"promptSequence": "12345 plus 67890 divided by 4"}}
+"Square the sum of 25 and 35, then subtract 100." || {"CurrentApp":"Calculator","Config":{"promptSequence": "(25 + 35)^2 - 100"}}
