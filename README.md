@@ -1,6 +1,6 @@
 # LM-UI
 
-[Paper](https://arxiv.org/) | [Deployment](https://thesisproject.mekaelwasti.com/) | [Video Demonstration](https://www.youtube.com/watch?v=-Lc2TnxeEPA&t=330s)
+[Paper](https://arxiv.org/abs/2402.07938) | [Deployment](https://thesisproject.mekaelwasti.com/) | [Video Demonstration](https://www.youtube.com/watch?v=-Lc2TnxeEPA&t=330s)
 
 Research into a dynamic and powerful framework that merges classical user interfaces with powerful Large Language Models, achieving real-time speech-controlled intelligent applications.
 
@@ -92,4 +92,4 @@ To set this project up for local use, you can:
 
 ## Paper
 
-Pending pre-print on Arxiv. See [attached](https://arxiv.org/)
+Available as a pre-print on [Arxiv](https://arxiv.org/abs/2402.07938)
