@@ -93,4 +93,5 @@ To set this project up for local use, you can:
 ## Paper
 
 Available as a pre-print on [Arxiv](https://arxiv.org/abs/2402.07938)
+
 *Accepted for publication*
